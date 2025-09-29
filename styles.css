@@ -1,8 +1,31 @@
 /* Flexbox Part 1 */
 
-#flex-section1 ul {
 
+nav ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    background-color: #f2f2f2;
 }
+
+nav ul li {
+    flex: 1; 
+    text-align: center;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: darkred;
+}
+
 
 /* end Flexbox Part 1 */
 
