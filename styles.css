@@ -1,6 +1,6 @@
 /* Flexbox Part 1 */
 
-
+#flex-section1 ul {
 nav ul {
     list-style-type: none; 
     margin: 0;
@@ -26,6 +26,8 @@ nav ul li a:hover {
     background-color: darkred;
 }
 
+
+}
 
 /* end Flexbox Part 1 */
 
